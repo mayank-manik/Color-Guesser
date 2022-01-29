@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Ubuntu+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainGame h1 {
+    margin-top: 10px;
+    font-family: "Fuzzy Bubbles", cursive;
+    font-size: 2.5rem;
+  }
+#colorCode {
+  width: 60vw;
+  font-size: 1.35rem;
+}
+
+.option {
+    border: 0px solid black;
+    width: 50vw;
+    height: 45vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 55px 0px;
+    grid-auto-rows: minmax(100px, auto);
+  }
